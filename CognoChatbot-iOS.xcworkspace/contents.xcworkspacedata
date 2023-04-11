@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:CognoChatbot-iOS.xcodeproj">
+      location = "group:/Volumes/DATA/live/nihar_sir/ZaincashChatbot-IOS/ZaincashChatbot-IOS.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

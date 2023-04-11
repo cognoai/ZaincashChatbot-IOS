@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		2B334562FFD271A06E1669D8 /* Pods_CognoChatbot_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDFCA9FEE1849024593BE0EA /* Pods_CognoChatbot_iOS.framework */; };
-		8DA7D93B282010A500B1C1BF /* CognoChatbot_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DA7D93A282010A500B1C1BF /* CognoChatbot_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DA7D93B282010A500B1C1BF /* ZaincashChatbot-IOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DA7D93A282010A500B1C1BF /* ZaincashChatbot-IOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8DA7D942282010F100B1C1BF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA7D941282010F100B1C1BF /* Constants.swift */; };
 		8DA7D9442820114A00B1C1BF /* ChatbotSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA7D9432820114A00B1C1BF /* ChatbotSDK.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8DA7D937282010A500B1C1BF /* CognoChatbot_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CognoChatbot_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DA7D93A282010A500B1C1BF /* CognoChatbot_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CognoChatbot_iOS.h; sourceTree = "<group>"; };
+		8DA7D937282010A500B1C1BF /* ZaincashChatbot_IOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZaincashChatbot_IOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA7D93A282010A500B1C1BF /* ZaincashChatbot-IOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZaincashChatbot-IOS.h"; sourceTree = "<group>"; };
 		8DA7D941282010F100B1C1BF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8DA7D9432820114A00B1C1BF /* ChatbotSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatbotSDK.swift; sourceTree = "<group>"; };
 		DEEE4021A95E4E1E893EFD2E /* Pods-CognoChatbot-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CognoChatbot-iOS.debug.xcconfig"; path = "Target Support Files/Pods-CognoChatbot-iOS/Pods-CognoChatbot-iOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 		8DA7D92D282010A500B1C1BF = {
 			isa = PBXGroup;
 			children = (
-				8DA7D939282010A500B1C1BF /* CognoChatbot-iOS */,
+				8DA7D939282010A500B1C1BF /* ZaincashChatbot-IOS */,
 				8DA7D938282010A500B1C1BF /* Products */,
 				8CBE9AA544007093F61D38CE /* Pods */,
 				508576CCC6DC8BAE4A322A61 /* Frameworks */,
@@ -65,19 +65,19 @@
 		8DA7D938282010A500B1C1BF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8DA7D937282010A500B1C1BF /* CognoChatbot_iOS.framework */,
+				8DA7D937282010A500B1C1BF /* ZaincashChatbot_IOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8DA7D939282010A500B1C1BF /* CognoChatbot-iOS */ = {
+		8DA7D939282010A500B1C1BF /* ZaincashChatbot-IOS */ = {
 			isa = PBXGroup;
 			children = (
-				8DA7D93A282010A500B1C1BF /* CognoChatbot_iOS.h */,
+				8DA7D93A282010A500B1C1BF /* ZaincashChatbot-IOS.h */,
 				8DA7D941282010F100B1C1BF /* Constants.swift */,
 				8DA7D9432820114A00B1C1BF /* ChatbotSDK.swift */,
 			);
-			path = "CognoChatbot-iOS";
+			path = "ZaincashChatbot-IOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,16 +87,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DA7D93B282010A500B1C1BF /* CognoChatbot_iOS.h in Headers */,
+				8DA7D93B282010A500B1C1BF /* ZaincashChatbot-IOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8DA7D936282010A500B1C1BF /* CognoChatbot-iOS */ = {
+		8DA7D936282010A500B1C1BF /* ZaincashChatbot-IOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8DA7D93E282010A500B1C1BF /* Build configuration list for PBXNativeTarget "CognoChatbot-iOS" */;
+			buildConfigurationList = 8DA7D93E282010A500B1C1BF /* Build configuration list for PBXNativeTarget "ZaincashChatbot-IOS" */;
 			buildPhases = (
 				080DBF48C1CF3D18C30025F5 /* [CP] Check Pods Manifest.lock */,
 				8DA7D932282010A500B1C1BF /* Headers */,
@@ -108,9 +108,9 @@
 			);
 			dependencies = (
 			);
-			name = "CognoChatbot-iOS";
+			name = "ZaincashChatbot-IOS";
 			productName = "CognoChatbot-iOS";
-			productReference = 8DA7D937282010A500B1C1BF /* CognoChatbot_iOS.framework */;
+			productReference = 8DA7D937282010A500B1C1BF /* ZaincashChatbot_IOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -128,7 +128,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8DA7D931282010A500B1C1BF /* Build configuration list for PBXProject "CognoChatbot-iOS" */;
+			buildConfigurationList = 8DA7D931282010A500B1C1BF /* Build configuration list for PBXProject "ZaincashChatbot-IOS" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -141,7 +141,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8DA7D936282010A500B1C1BF /* CognoChatbot-iOS */,
+				8DA7D936282010A500B1C1BF /* ZaincashChatbot-IOS */,
 			);
 		};
 /* End PBXProject section */
@@ -341,7 +341,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.9;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.CognoChatbot-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZaincashChatbot-IOS";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -374,7 +374,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.9;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.CognoChatbot-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZaincashChatbot-IOS";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -386,7 +386,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8DA7D931282010A500B1C1BF /* Build configuration list for PBXProject "CognoChatbot-iOS" */ = {
+		8DA7D931282010A500B1C1BF /* Build configuration list for PBXProject "ZaincashChatbot-IOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8DA7D93C282010A500B1C1BF /* Debug */,
@@ -395,7 +395,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8DA7D93E282010A500B1C1BF /* Build configuration list for PBXNativeTarget "CognoChatbot-iOS" */ = {
+		8DA7D93E282010A500B1C1BF /* Build configuration list for PBXNativeTarget "ZaincashChatbot-IOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8DA7D93F282010A500B1C1BF /* Debug */,

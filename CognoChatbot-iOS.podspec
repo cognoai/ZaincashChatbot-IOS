@@ -9,6 +9,8 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
 
 
+
+
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  Specify the authors of the library, with email addresses. Email addresses

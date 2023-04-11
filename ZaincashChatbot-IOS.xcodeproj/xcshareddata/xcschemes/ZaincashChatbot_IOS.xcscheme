@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8DA7D936282010A500B1C1BF"
-               BuildableName = "CognoChatbot_iOS.framework"
-               BlueprintName = "CognoChatbot-iOS"
-               ReferencedContainer = "container:CognoChatbot-iOS.xcodeproj">
+               BuildableName = "ZaincashChatbot_IOS.framework"
+               BlueprintName = "ZaincashChatbot-IOS"
+               ReferencedContainer = "container:ZaincashChatbot-IOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -51,9 +51,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8DA7D936282010A500B1C1BF"
-            BuildableName = "CognoChatbot_iOS.framework"
-            BlueprintName = "CognoChatbot-iOS"
-            ReferencedContainer = "container:CognoChatbot-iOS.xcodeproj">
+            BuildableName = "ZaincashChatbot_IOS.framework"
+            BlueprintName = "ZaincashChatbot-IOS"
+            ReferencedContainer = "container:ZaincashChatbot-IOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
