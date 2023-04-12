@@ -32,7 +32,8 @@ public class ChatbotSDK: UIViewController, UIWebViewDelegate, WKUIDelegate, WKNa
         request.httpMethod = "POST"
         
         let parameters: [String: Any] = [
-            "bot_id": Constants.customerID,
+            "customerID": Constants.customerID,
+            "bot_id": Constants.botId,
             "access_token": Constants.accessToken
         ]
         
@@ -161,7 +162,7 @@ public class ChatbotSDK: UIViewController, UIWebViewDelegate, WKUIDelegate, WKNa
             guard let wv = webView else { return }
             webViewController.view.addSubview(wv)
 //  Change string url to with verified url
-            if let _url = URL(string: Constants.botUrl + "/chat/index/?id=" + Constants.customerID + "&channel=iOS&mobile_session_id=" + Constants.mobileChatbotSessionID + "&livechat_session_id=" + Constants.mobileLiveChatSessionID + "&selected_language=" + Constants.chatbotSelectedLanguage) {
+            if let _url = URL(string: Constants.botUrl + "/chat/index/?id=" + Constants.botId + "&channel=iOS&mobile_session_id=" + Constants.mobileChatbotSessionID + "&livechat_session_id=" + Constants.mobileLiveChatSessionID + "&selected_language=" + Constants.chatbotSelectedLanguage + "&customerID=" + Constants.customerID) {
                 let request = URLRequest(url: _url)
                 webView?.load(request)
             }
@@ -314,7 +315,7 @@ extension ChatbotSDK: WKScriptMessageHandler {
         } else if message.name == "reloadChatbot" {
             Constants.mobileChatbotSessionID  = ""
             Constants.mobileLiveChatSessionID = ""
-            if let _url = URL(string: Constants.botUrl + "/chat/index/?id=" + Constants.customerID + "&channel=iOS&mobile_session_id=" + Constants.mobileChatbotSessionID + "&livechat_session_id=" + Constants.mobileLiveChatSessionID + "&selected_language=" + Constants.chatbotSelectedLanguage) {
+            if let _url = URL(string: Constants.botUrl + "/chat/index/?id=" + Constants.botId + "&channel=iOS&mobile_session_id=" + Constants.mobileChatbotSessionID + "&livechat_session_id=" + Constants.mobileLiveChatSessionID + "&selected_language=" + Constants.chatbotSelectedLanguage + "&customerID=" + Constants.customerID) {
                 let request = URLRequest(url: _url)
                 webViewGlobal.load(request)
             }
@@ -322,7 +323,7 @@ extension ChatbotSDK: WKScriptMessageHandler {
             
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.1){
                 
-                if let _url = URL(string: Constants.botUrl + "/chat/index/?id=" + Constants.customerID + "&channel=iOS&mobile_session_id=" + Constants.mobileChatbotSessionID + "&livechat_session_id=" + Constants.mobileLiveChatSessionID + "&selected_language=" + Constants.chatbotSelectedLanguage) {
+                if let _url = URL(string: Constants.botUrl + "/chat/index/?id=" + Constants.botId + "&channel=iOS&mobile_session_id=" + Constants.mobileChatbotSessionID + "&livechat_session_id=" + Constants.mobileLiveChatSessionID + "&selected_language=" + Constants.chatbotSelectedLanguage + "&customerID=" + Constants.customerID) {
                     let request = URLRequest(url: _url)
                     self.webViewGlobal.load(request)
                 }
