@@ -15,12 +15,12 @@
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.4</string>
+	<string>1.0.5</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>${CURRENT_PROJECT_VERSION}</string>
 	<key>NSSpeechRecognitionUsageDescription</key>
-	<string>Speech recognition permission required to recognize your voice to device's microphone</string>
+	<string>Speech recognition permission required to recognize your voice to device&apos;s microphone</string>
 </dict>
 </plist>
