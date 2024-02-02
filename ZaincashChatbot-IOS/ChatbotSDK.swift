@@ -54,6 +54,7 @@ public class ChatbotSDK: UIViewController, UIWebViewDelegate, WKUIDelegate, WKNa
                     Constants.isTokenVerify = true
                     
                     DispatchQueue.main.async {
+                        self.dispWebView(viewController: viewController)
                         completion(true)
                     }
                 } else {
@@ -160,7 +161,6 @@ public class ChatbotSDK: UIViewController, UIWebViewDelegate, WKUIDelegate, WKNa
             webView?.autoresizingMask = [.flexibleWidth, .flexibleHeight]
             
             guard let wv = webView else { return }
-            webViewController.view.addSubview(wv)
 //  Change string url to with verified url
             if let _url = URL(string: Constants.botUrl + "/chat/index/?id=" + Constants.botId + "&channel=iOS&mobile_session_id=" + Constants.mobileChatbotSessionID + "&livechat_session_id=" + Constants.mobileLiveChatSessionID + "&selected_language=" + Constants.chatbotSelectedLanguage + "&customerID=" + Constants.customerID) {
                 let request = URLRequest(url: _url)
@@ -169,6 +169,8 @@ public class ChatbotSDK: UIViewController, UIWebViewDelegate, WKUIDelegate, WKNa
             webViewController.modalPresentationStyle = .fullScreen
             viewController.present(webViewController, animated: true, completion: nil)
             webViewGlobal = wv
+
+            webViewController.view.addSubview(wv)
         }
     }
     
