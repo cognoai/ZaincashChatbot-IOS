@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
 
-  spec.name         = "ZaincashChatbot-IOS"
+  spec.name         = "ZaincashChatbot-IOS-Cogno"
   spec.version      = "1.0.6"
   spec.summary      = "Simple chatbot SDK"
   spec.description  = "Chatbot SDK/ Framework ready to available with all types of iOS applications"
@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
 
   spec.license      = "MIT"
 
-  spec.author = { "Om" => "88827091+mobileappdev47@users.noreply.github.com" }
+  spec.author = { "Viraj Gund" => "viraj.gund@exotel.com" }
 
   spec.platform     = :ios, "11.0"
 
